@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YMWaveProgressView.h"
 @interface ViewController ()
 
 @end
@@ -16,10 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton * button = [[UIButton alloc] init];
-    UILabel * lable =[[UILabel alloc] init];
+   
     
 }
+
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    CGFloat d = 160;
+    CGRect rect = CGRectMake(0, 0, d, d);
+    YMWaveProgressView *waterWaveView = [[YMWaveProgressView alloc] initWithFrame:rect];
+    
+    waterWaveView.center = self.view.center;
+    waterWaveView.layer.cornerRadius = d / 2;
+    waterWaveView.clipsToBounds = YES;
+    
+    [self.view addSubview:waterWaveView];
+    
+    [waterWaveView startWaveToPercent:0.2];
+    
+}
+
 
 
 - (void)didReceiveMemoryWarning {

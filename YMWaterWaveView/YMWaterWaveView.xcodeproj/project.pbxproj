@@ -16,6 +16,8 @@
 		040A51F31E0BB2AD00652778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A51F11E0BB2AD00652778 /* LaunchScreen.storyboard */; };
 		040A51FE1E0BB2AE00652778 /* YMWaterWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A51FD1E0BB2AE00652778 /* YMWaterWaveViewTests.m */; };
 		040A52091E0BB2AE00652778 /* YMWaterWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A52081E0BB2AE00652778 /* YMWaterWaveViewUITests.m */; };
+		040A52181E0BC07100652778 /* YMWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A52171E0BC07100652778 /* YMWaveProgressView.m */; };
+		040A52291E0BE3F400652778 /* YMWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A52171E0BC07100652778 /* YMWaveProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		040A52041E0BB2AE00652778 /* YMWaterWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMWaterWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040A52081E0BB2AE00652778 /* YMWaterWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMWaterWaveViewUITests.m; sourceTree = "<group>"; };
 		040A520A1E0BB2AE00652778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040A52161E0BC07100652778 /* YMWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMWaveProgressView.h; sourceTree = "<group>"; };
+		040A52171E0BC07100652778 /* YMWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMWaveProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		040A51DF1E0BB2AD00652778 /* YMWaterWaveView */ = {
 			isa = PBXGroup;
 			children = (
+				040A52161E0BC07100652778 /* YMWaveProgressView.h */,
+				040A52171E0BC07100652778 /* YMWaveProgressView.m */,
 				040A51E31E0BB2AD00652778 /* AppDelegate.h */,
 				040A51E41E0BB2AD00652778 /* AppDelegate.m */,
 				040A51E61E0BB2AD00652778 /* ViewController.h */,
@@ -283,6 +289,7 @@
 				040A51E51E0BB2AD00652778 /* AppDelegate.m in Sources */,
 				040A51E21E0BB2AD00652778 /* main.m in Sources */,
 				040A51EE1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld in Sources */,
+				040A52181E0BC07100652778 /* YMWaveProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A52291E0BE3F400652778 /* YMWaveProgressView.m in Sources */,
 				040A52091E0BB2AE00652778 /* YMWaterWaveViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
