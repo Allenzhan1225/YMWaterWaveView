@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040A51E21E0BB2AD00652778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A51E11E0BB2AD00652778 /* main.m */; };
+		040A51E51E0BB2AD00652778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A51E41E0BB2AD00652778 /* AppDelegate.m */; };
+		040A51E81E0BB2AD00652778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A51E71E0BB2AD00652778 /* ViewController.m */; };
+		040A51EB1E0BB2AD00652778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A51E91E0BB2AD00652778 /* Main.storyboard */; };
+		040A51EE1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040A51EC1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld */; };
+		040A51F01E0BB2AD00652778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A51EF1E0BB2AD00652778 /* Assets.xcassets */; };
+		040A51F31E0BB2AD00652778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040A51F11E0BB2AD00652778 /* LaunchScreen.storyboard */; };
+		040A51FE1E0BB2AE00652778 /* YMWaterWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A51FD1E0BB2AE00652778 /* YMWaterWaveViewTests.m */; };
+		040A52091E0BB2AE00652778 /* YMWaterWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A52081E0BB2AE00652778 /* YMWaterWaveViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040A51FA1E0BB2AD00652778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040A51D51E0BB2AD00652778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040A51DC1E0BB2AD00652778;
+			remoteInfo = YMWaterWaveView;
+		};
+		040A52051E0BB2AE00652778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040A51D51E0BB2AD00652778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040A51DC1E0BB2AD00652778;
+			remoteInfo = YMWaterWaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040A51DD1E0BB2AD00652778 /* YMWaterWaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMWaterWaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040A51E11E0BB2AD00652778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040A51E31E0BB2AD00652778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040A51E41E0BB2AD00652778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040A51E61E0BB2AD00652778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040A51E71E0BB2AD00652778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040A51EA1E0BB2AD00652778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040A51ED1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YMWaterWaveView.xcdatamodel; sourceTree = "<group>"; };
+		040A51EF1E0BB2AD00652778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040A51F21E0BB2AD00652778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040A51F41E0BB2AD00652778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040A51F91E0BB2AD00652778 /* YMWaterWaveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMWaterWaveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040A51FD1E0BB2AE00652778 /* YMWaterWaveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMWaterWaveViewTests.m; sourceTree = "<group>"; };
+		040A51FF1E0BB2AE00652778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040A52041E0BB2AE00652778 /* YMWaterWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMWaterWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040A52081E0BB2AE00652778 /* YMWaterWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMWaterWaveViewUITests.m; sourceTree = "<group>"; };
+		040A520A1E0BB2AE00652778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040A51DA1E0BB2AD00652778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A51F61E0BB2AD00652778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A52011E0BB2AE00652778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040A51D41E0BB2AD00652778 = {
+			isa = PBXGroup;
+			children = (
+				040A51DF1E0BB2AD00652778 /* YMWaterWaveView */,
+				040A51FC1E0BB2AE00652778 /* YMWaterWaveViewTests */,
+				040A52071E0BB2AE00652778 /* YMWaterWaveViewUITests */,
+				040A51DE1E0BB2AD00652778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040A51DE1E0BB2AD00652778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040A51DD1E0BB2AD00652778 /* YMWaterWaveView.app */,
+				040A51F91E0BB2AD00652778 /* YMWaterWaveViewTests.xctest */,
+				040A52041E0BB2AE00652778 /* YMWaterWaveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040A51DF1E0BB2AD00652778 /* YMWaterWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				040A51E31E0BB2AD00652778 /* AppDelegate.h */,
+				040A51E41E0BB2AD00652778 /* AppDelegate.m */,
+				040A51E61E0BB2AD00652778 /* ViewController.h */,
+				040A51E71E0BB2AD00652778 /* ViewController.m */,
+				040A51E91E0BB2AD00652778 /* Main.storyboard */,
+				040A51EF1E0BB2AD00652778 /* Assets.xcassets */,
+				040A51F11E0BB2AD00652778 /* LaunchScreen.storyboard */,
+				040A51F41E0BB2AD00652778 /* Info.plist */,
+				040A51EC1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld */,
+				040A51E01E0BB2AD00652778 /* Supporting Files */,
+			);
+			path = YMWaterWaveView;
+			sourceTree = "<group>";
+		};
+		040A51E01E0BB2AD00652778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040A51E11E0BB2AD00652778 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040A51FC1E0BB2AE00652778 /* YMWaterWaveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				040A51FD1E0BB2AE00652778 /* YMWaterWaveViewTests.m */,
+				040A51FF1E0BB2AE00652778 /* Info.plist */,
+			);
+			path = YMWaterWaveViewTests;
+			sourceTree = "<group>";
+		};
+		040A52071E0BB2AE00652778 /* YMWaterWaveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040A52081E0BB2AE00652778 /* YMWaterWaveViewUITests.m */,
+				040A520A1E0BB2AE00652778 /* Info.plist */,
+			);
+			path = YMWaterWaveViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040A51DC1E0BB2AD00652778 /* YMWaterWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040A520D1E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveView" */;
+			buildPhases = (
+				040A51D91E0BB2AD00652778 /* Sources */,
+				040A51DA1E0BB2AD00652778 /* Frameworks */,
+				040A51DB1E0BB2AD00652778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMWaterWaveView;
+			productName = YMWaterWaveView;
+			productReference = 040A51DD1E0BB2AD00652778 /* YMWaterWaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040A51F81E0BB2AD00652778 /* YMWaterWaveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040A52101E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveViewTests" */;
+			buildPhases = (
+				040A51F51E0BB2AD00652778 /* Sources */,
+				040A51F61E0BB2AD00652778 /* Frameworks */,
+				040A51F71E0BB2AD00652778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040A51FB1E0BB2AD00652778 /* PBXTargetDependency */,
+			);
+			name = YMWaterWaveViewTests;
+			productName = YMWaterWaveViewTests;
+			productReference = 040A51F91E0BB2AD00652778 /* YMWaterWaveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040A52031E0BB2AE00652778 /* YMWaterWaveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040A52131E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveViewUITests" */;
+			buildPhases = (
+				040A52001E0BB2AE00652778 /* Sources */,
+				040A52011E0BB2AE00652778 /* Frameworks */,
+				040A52021E0BB2AE00652778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040A52061E0BB2AE00652778 /* PBXTargetDependency */,
+			);
+			name = YMWaterWaveViewUITests;
+			productName = YMWaterWaveViewUITests;
+			productReference = 040A52041E0BB2AE00652778 /* YMWaterWaveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040A51D51E0BB2AD00652778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					040A51DC1E0BB2AD00652778 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWHD3NRLR7;
+						ProvisioningStyle = Automatic;
+					};
+					040A51F81E0BB2AD00652778 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWHD3NRLR7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040A51DC1E0BB2AD00652778;
+					};
+					040A52031E0BB2AE00652778 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JWHD3NRLR7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040A51DC1E0BB2AD00652778;
+					};
+				};
+			};
+			buildConfigurationList = 040A51D81E0BB2AD00652778 /* Build configuration list for PBXProject "YMWaterWaveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040A51D41E0BB2AD00652778;
+			productRefGroup = 040A51DE1E0BB2AD00652778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040A51DC1E0BB2AD00652778 /* YMWaterWaveView */,
+				040A51F81E0BB2AD00652778 /* YMWaterWaveViewTests */,
+				040A52031E0BB2AE00652778 /* YMWaterWaveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040A51DB1E0BB2AD00652778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040A51F31E0BB2AD00652778 /* LaunchScreen.storyboard in Resources */,
+				040A51F01E0BB2AD00652778 /* Assets.xcassets in Resources */,
+				040A51EB1E0BB2AD00652778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A51F71E0BB2AD00652778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A52021E0BB2AE00652778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040A51D91E0BB2AD00652778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040A51E81E0BB2AD00652778 /* ViewController.m in Sources */,
+				040A51E51E0BB2AD00652778 /* AppDelegate.m in Sources */,
+				040A51E21E0BB2AD00652778 /* main.m in Sources */,
+				040A51EE1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A51F51E0BB2AD00652778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040A51FE1E0BB2AE00652778 /* YMWaterWaveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040A52001E0BB2AE00652778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040A52091E0BB2AE00652778 /* YMWaterWaveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040A51FB1E0BB2AD00652778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040A51DC1E0BB2AD00652778 /* YMWaterWaveView */;
+			targetProxy = 040A51FA1E0BB2AD00652778 /* PBXContainerItemProxy */;
+		};
+		040A52061E0BB2AE00652778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040A51DC1E0BB2AD00652778 /* YMWaterWaveView */;
+			targetProxy = 040A52051E0BB2AE00652778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040A51E91E0BB2AD00652778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040A51EA1E0BB2AD00652778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040A51F11E0BB2AD00652778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040A51F21E0BB2AD00652778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040A520B1E0BB2AE00652778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040A520C1E0BB2AE00652778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040A520E1E0BB2AE00652778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040A520F1E0BB2AE00652778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040A52111E0BB2AE00652778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMWaterWaveView.app/YMWaterWaveView";
+			};
+			name = Debug;
+		};
+		040A52121E0BB2AE00652778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMWaterWaveView.app/YMWaterWaveView";
+			};
+			name = Release;
+		};
+		040A52141E0BB2AE00652778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMWaterWaveView;
+			};
+			name = Debug;
+		};
+		040A52151E0BB2AE00652778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JWHD3NRLR7;
+				INFOPLIST_FILE = YMWaterWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheeli.YMWaterWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMWaterWaveView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040A51D81E0BB2AD00652778 /* Build configuration list for PBXProject "YMWaterWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040A520B1E0BB2AE00652778 /* Debug */,
+				040A520C1E0BB2AE00652778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040A520D1E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040A520E1E0BB2AE00652778 /* Debug */,
+				040A520F1E0BB2AE00652778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040A52101E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040A52111E0BB2AE00652778 /* Debug */,
+				040A52121E0BB2AE00652778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040A52131E0BB2AE00652778 /* Build configuration list for PBXNativeTarget "YMWaterWaveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040A52141E0BB2AE00652778 /* Debug */,
+				040A52151E0BB2AE00652778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		040A51EC1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				040A51ED1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodel */,
+			);
+			currentVersion = 040A51ED1E0BB2AD00652778 /* YMWaterWaveView.xcdatamodel */;
+			path = YMWaterWaveView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 040A51D51E0BB2AD00652778 /* Project object */;
+}
